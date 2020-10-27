@@ -1,0 +1,62 @@
+/*==== Tablet layout =======*/
+
+@media only screen and (max-width: 1024px) and (min-width: 200px) {
+
+.mean-container .mean-nav ul li a {padding: .6em 5%;}
+h2{font-size: 30px;}
+h3{font-size: 20px;}
+h4{font-size: 17px;}
+.section_padding {padding: 60px 0;}
+.section_title p {margin: 20px 0; font-size: 19px;}
+#hero_area {height: 70vh;}
+#hero_area .inner_hero_area h1 {font-size: 52px;}
+#hero_area .inner_hero_area p {font-size: 22px;}
+#hero_area .inner_hero_area a {padding: 15px 25px;}
+#header_bottom .header_bottom_area {padding: 15px 0;}
+.about_content .about_item {text-align: center;}
+.about_item .about_icon {width: 100%; float: none; text-align: center;}
+.about_item .about_text {width: 100%; margin-left: 0; float: none;}
+.about_item .about_icon {margin-bottom: 20px;}
+.about_item .about_text h3 {margin-bottom: 20px;}
+.work_content .work_top {margin-bottom: 45px;}
+#follow_area .section_title a {padding: 8px 15px;}
+.footer_top_content .footer_top_item {width: 48%;}
+.footer_top_content .footer_top_item:nth-child(2){margin-right: 0;}
+.footer_top_content .footer_top_item:nth-child(3){margin-left: 0;}
+.footer_top .footer_top_content {padding: 30px 0;}
+.footer_top_content .ft_4 .newsletter input {width: 60%;}
+.footer_top_content .ft_4 .newsletter button.btn {width: 35%;}
+
+}
+
+/*==== Mobile layout =======*/
+
+@media only screen and (max-width: 767px) {
+
+.mean-container .mean-nav ul li a {padding: .6em 5%;}
+.mean-container .mean-bar {padding: 0;}
+h2{font-size: 22px;}
+h3{font-size: 17px;}
+h4{font-size: 15px;}
+p{font-size: 15px;}
+a{font-size: 15px;}
+.section_padding {padding: 30px 0;}
+.section_title p {margin: 15px 0; font-size: 17px;}
+#header_top .header_top_area {justify-content: center; align-items:center; flex-direction: column;}
+.header_top_right ul {margin-top: 12px;}
+#hero_area .inner_hero_area h1 {font-size: 32px;}
+#hero_area .inner_hero_area p {font-size: 17px;}
+#hero_area .inner_hero_area a {padding: 8px 14px; font-size: 15px;}
+#header_bottom .header_bottom_area {padding: 15px 0;}
+.about_content .about_item {text-align: center; width: 100%; margin: 2% 0;}
+.work_content .work_top .work_top_item {width: 100%; margin: 2% 0;}
+#follow_area .section_title p {margin: 20px 0;}
+.owl-carousel .owl-dots .owl-dot {margin: 0 5px;height: 10px;width: 10px;}
+#follow_area .section_title a {padding: 8px 15px; font-size: 15px;}
+.owl-carousel .owl-dots {margin-top: 20px;}
+.footer_top_content .footer_top_item {width: 100%; margin: 3% 0;}
+.footer_bottom .fb_left {float: none;text-align: center;margin-bottom: 10px;}
+.footer_bottom .fb_right {float: none;text-align: center;}
+
+
+}
